@@ -1,0 +1,22 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "Green Goddess Chicken Salad",
+      "price": 32,
+      "description": "This salad is a great way to use up leftover chicken. It is a light meal that is perfect for a hot summer day. "
+    },
+    {
+      "id": 2,
+      "name": "Asian Cucumber Salad",
+      "price": 16,
+      "description": "Asian Cucumber Salad Recipe made with crunchy cucumber, onion, rice wine vinegar, and a few secret ingredients!"
+    },
+    {
+      "id": 3,
+      "name": "Green Goddess fish Salad",
+      "price": 28,
+      "description": "It is a non vegetarian salad which consists of the green goddess dressing mixed with fish, peppers, olives and celery."
+    }
+  ]
+}
