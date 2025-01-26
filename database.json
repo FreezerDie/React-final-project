@@ -4,19 +4,73 @@
       "id": 1,
       "name": "Green Goddess Chicken Salad",
       "price": 32,
-      "description": "This salad is a great way to use up leftover chicken. It is a light meal that is perfect for a hot summer day. "
+      "description": "This salad is a great way to use up leftover chicken. It is a light meal that is perfect for a hot summer day.",
+      "category": "lunch",
+      "image": "https://foodspin.vercel.app/_next/image?url=%2Fimages%2F1.png&w=384&q=75"
     },
     {
       "id": 2,
       "name": "Asian Cucumber Salad",
       "price": 16,
-      "description": "Asian Cucumber Salad Recipe made with crunchy cucumber, onion, rice wine vinegar, and a few secret ingredients!"
+      "description": "Asian Cucumber Salad Recipe made with crunchy cucumber, onion, rice wine vinegar, and a few secret ingredients!",
+      "category": "lunch",
+      "image": "https://foodspin.vercel.app/_next/image?url=%2Fimages%2F2.png&w=384&q=75"
     },
     {
       "id": 3,
       "name": "Green Goddess fish Salad",
       "price": 28,
-      "description": "It is a non vegetarian salad which consists of the green goddess dressing mixed with fish, peppers, olives and celery."
+      "description": "It is a non vegetarian salad which consists of the green goddess dressing mixed with fish, peppers, olives and celery.",
+      "category": "lunch",
+      "image": "https://foodspin.vercel.app/_next/image?url=%2Fimages%2F3.png&w=384&q=75"
+    },
+    {
+      "id": 4,
+      "name": "Avocado Toast",
+      "price": 12,
+      "description": "A simple and delicious breakfast option with mashed avocado on toast, topped with a sprinkle of salt and pepper.",
+      "category": "breakfast",
+      "image": "https://www.rootsandradishes.com/wp-content/uploads/2017/08/avocado-toast-with-everything-bagel-seasoning-feat.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Pancakes",
+      "price": 15,
+      "description": "Fluffy pancakes served with maple syrup and fresh berries.",
+      "category": "breakfast",
+      "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-08-Blueberry-Pancakes%2FIMG_3868_01"
+    },
+    {
+      "id": 6,
+      "name": "Omelette",
+      "price": 10,
+      "description": "A classic omelette with cheese, ham, and vegetables.",
+      "category": "breakfast",
+      "image": "https://media.ovkuse.ru/images/step_attachments/296586a3-7da1-433b-bbe1-c1a28dbd3d61/296586a3-7da1-433b-bbe1-c1a28dbd3d61.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Grilled Salmon",
+      "price": 25,
+      "description": "Grilled salmon served with a side of vegetables and a lemon wedge.",
+      "category": "dinner",
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2018/05/grilled-salmon-3.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Steak",
+      "price": 30,
+      "description": "Juicy steak cooked to perfection, served with mashed potatoes and green beans.",
+      "category": "dinner",
+      "image": "https://jow.com/_next/image?url=https%3A%2F%2Fstatic.jow.fr%2F880x880%2Frecipes%2F76hIK1ErCWneFA.png&w=2560&q=100"
+    },
+    {
+      "id": 9,
+      "name": "Spaghetti Bolognese",
+      "price": 20,
+      "description": "Classic spaghetti with a rich and flavorful Bolognese sauce.",
+      "category": "dinner",
+      "image": "https://cdn.stoneline.de/media/c5/63/4f/1727429313/spaghetti-bolognese.jpeg?ts=1727429313"
     }
   ]
 }

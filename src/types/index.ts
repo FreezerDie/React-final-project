@@ -3,6 +3,8 @@ export type Product = {
   name: string;
   price: number;
   description: string;
+  category: "breakfast" | "lunch" | "dinner";
+  image: string;
 };
 
 export interface ProductState {
@@ -10,3 +12,9 @@ export interface ProductState {
   isLoading: boolean;
   error: string | null;
 }
+
+export type User = {
+  id: number;
+  username: string;
+  password: string;
+};

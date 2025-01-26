@@ -9,7 +9,7 @@ export const fetchProducts = createAsyncThunk<
   Product[],
   void,
   {
-    Dispatch: AppDispatch;
+    dispatch: AppDispatch;
     state: RootState;
     rejectValue: any;
   }

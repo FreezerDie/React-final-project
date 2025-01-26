@@ -18,6 +18,7 @@ const slice = createSlice({
       })
       .addCase(fetchProducts.fulfilled, (state, action) => {
         state.isLoading = false;
+        state.error = null;
         state.items = action.payload;
       })
       .addCase(fetchProducts.rejected, (state, action) => {
@@ -27,4 +28,4 @@ const slice = createSlice({
   },
 });
 
-export const productsReducer = slice.reducer;
+export default slice.reducer;
