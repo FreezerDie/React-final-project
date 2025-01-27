@@ -1,18 +1,15 @@
+import { useSelector } from "react-redux";
 import Header from "../../components/Header/Header";
-import { Order } from "../../components/Order/Order";
+import { productBreakfastSelector } from "../../redux/selectors";
+import { MealCircle } from "../../components/MealCircle/MealCircle";
 
 const BreakfastPage = () => {
+  const breakfastMeals = useSelector(productBreakfastSelector);
   return (
     <div>
       <div>
         <Header />
-
-        <Order
-          price={10}
-          name="Pizza"
-          description="Cheese pizza"
-          color="yellow"
-        />
+        <MealCircle meals={breakfastMeals} color="green" />
       </div>
     </div>
   );
